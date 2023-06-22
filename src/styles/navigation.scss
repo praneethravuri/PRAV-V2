@@ -1,0 +1,47 @@
+@import './variables';
+
+nav{
+    padding: 20px;
+    font-family: 'Source Code Pro', monospace;
+}
+
+.nav-link {
+    color: $bright-red;
+    font-size: 18px;
+    transition: all 0.3s ease 0s;
+    margin: 0px 10px;
+}
+
+.nav-link:hover {
+    color: $dark-red;
+}
+
+.db-slash{
+    color: $slate;
+    font-weight: bold;
+}
+
+.resume-btn{
+    border: 1px solid $bright-red;
+    padding: 10px 15px;
+    border-radius: 3px;
+    color: $bright-red;
+    text-decoration: none;
+    transition: all 0.3s ease 0s;
+}
+
+.resume-btn:hover{
+    box-shadow: 5px 5px $bright-red;
+}
+
+.prav-heading{
+    font-size: 2rem;
+    color: $bright-red;
+    font-style: italic;
+    font-weight: bold;
+    transition: all 0.3s ease 0s;
+}
+
+.prav-heading:hover{
+    color: $slate   ;
+}
