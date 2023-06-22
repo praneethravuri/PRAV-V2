@@ -46,7 +46,12 @@ nav {
     transition: $transition;
 }
 
-@media (max-width: 768px) {
+.hamburger-menu {
+    color: $bright-red;
+}
+
+
+@media (max-width: 1000px) {
     .resume-btn {
         margin: 0 10px;
         border: none;
@@ -61,4 +66,9 @@ nav {
     .resume-btn:hover {
         box-shadow: none;
     }
+
+    .hamburger-menu:focus {
+        border: none;
+    }
+
 }

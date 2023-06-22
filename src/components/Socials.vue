@@ -1,10 +1,10 @@
 <template>
     <div class="socials-div">
         <div class="logo-div">
-            <img src="../assets/images/github_bright_red.svg" alt="github logo" class="github logo">
+            <a href="https://github.com/praneethravuri" target="_blank"><img src="../assets/images/github_bright_red.svg" alt="github logo" class="github logo"></a>
         </div>
         <div class="logo-div">
-            <img src="../assets/images/linkedin_bright_red.svg" alt="linkedin logo" class="linkedin logo">
+            <a href="https://www.linkedin.com/in/praneeth-ravuri2500/" target="_blank"><img src="../assets/images/linkedin_bright_red.svg" alt="linkedin logo" class="linkedin logo"></a>
         </div>
 
         <div class="vertical-line"></div>

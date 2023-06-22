@@ -14,9 +14,18 @@ body {
   background-color: $dark-blue;
   text-decoration: none;
   font-family: 'Inter', sans-serif;
+  color : $text-color;
+  font-weight: 600;
+  font-size: 18px;
 }
 
 html, body{
   scrollbar-width: thin;
   scrollbar-color: $bright-red $dark-blue ;
+}
+
+.section-width{
+  width: 90%;
+  margin-left: 10%;
+  padding: 20px;
 }
