@@ -1,5 +1,12 @@
 @import "@/styles/_variables.scss";
 
+.vertical-line {
+    width: 1px;
+    height: 25%; /* Adjust the height as needed */
+    background-color: $bright-red; /* Set the color of the line */
+  }
+  
+
 .socials-div {
     position: fixed;
     bottom: 0;

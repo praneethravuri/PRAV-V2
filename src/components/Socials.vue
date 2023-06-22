@@ -6,6 +6,8 @@
         <div class="logo-div">
             <img src="../assets/images/linkedin_bright_red.svg" alt="linkedin logo" class="linkedin logo">
         </div>
+
+        <div class="vertical-line"></div>
     </div>
 </template>
 
