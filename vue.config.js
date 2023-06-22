@@ -8,7 +8,8 @@ module.exports = defineConfig(
           additionalData: `@import "@/styles/main.scss";`
         }
       }
-    }
+    },
+    
   }
 
 )
