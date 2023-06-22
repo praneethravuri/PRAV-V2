@@ -30,6 +30,13 @@ html, body{
   padding: 20px;
 }
 
+.introduction{
+  height: 85vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 @media (max-width: 600px) {
   .section-width{
     width: 100%;

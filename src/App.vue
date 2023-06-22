@@ -1,7 +1,7 @@
 <template>
   <Navigation />
   <Socials />
-  <div class="section-width">
+  <div class="section-width introduction">
     <AboutMe />
   </div>
 </template>
@@ -25,5 +25,5 @@ export default {
 </script>
 
 <style lang="scss">
-  @import "@/styles/main.scss";
+@import "@/styles/main.scss";
 </style>

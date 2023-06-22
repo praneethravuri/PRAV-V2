@@ -1,0 +1,16 @@
+@import './variables';
+
+div {
+    margin: 30px 0px;
+    font-size: clamp(1rem, 1.5vw, 2rem);
+}
+
+.name-text {
+    font-size: clamp(6rem, 7vw, 8rem);
+    line-height: 100%;
+    font-weight: 600;
+}
+
+.slate-text {
+    color: $slate;
+}
