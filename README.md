@@ -1,4 +1,6 @@
-# prav-v2
+<p align="center">
+  <img src="./banner.png" />
+</p>
 
 ### [Website Link - Netlify](https://splendorous-selkie-898298.netlify.app/)
 
