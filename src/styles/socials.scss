@@ -10,9 +10,8 @@
     flex-direction: column;
     justify-content: flex-end;
     align-items: center;
-    background-color: $dark-blue;
 
-    @media (max-width: 767px) {
+    @media (max-width: 768px) {
         display: none;
     }
 }
