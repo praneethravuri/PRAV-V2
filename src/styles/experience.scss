@@ -10,76 +10,78 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     padding: 20px;
     margin: 20px;
+}
 
-    .card-header {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        margin-bottom: 10px;
-        padding: 10px;
-        border-bottom: 2px solid $dark-red;
+.card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-bottom: 2px solid $dark-red;
+}
+
+.card-heading {
+    font-family: $source-code-pro-font;
+    font-size: 24px;
+    font-weight: 600;
+    color: $bright-red;
+}
+
+.card-date {
+    font-size: 18px;
+    color: $text-color;
+    margin-bottom: 10px;
+}
+
+.card-location {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.location-icon {
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+    fill: $bright-red;
+}
+
+.location-text {
+    font-size: 18px;
+    color: $bright-red;
+}
+
+.card-content p {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: $text-color;
+}
+
+@media (max-width: 600px) {
+    .exp-cards {
+        width: 100%;
     }
 
-    .card-heading{
-        font-family: $source-code-pro-font;
-        font-size: 24px;
-        font-weight: 600;
-        color: $bright-red;
-        
+    .card {
+        padding: 15px;
+        width: 90%;
+        margin: 15px auto;
     }
 
-    .card-date{
-        font-size: 18px;
-        color: $text-color;
-        margin-bottom: 10px;
+    .card-heading {
+        font-size: 20px;
     }
 
-    .card-location {
-        display: flex;
-        align-items: center;
-        margin-bottom: 10px;
-
-
-        .location-icon {
-            width: 20px;
-            height: 20px;
-            margin-right: 5px;
-            fill: $bright-red;
-        }
-
-        .location-text {
-            font-size: 18px;
-            color: $bright-red;
-        }
+    .card-date,
+    .location-text,
+    .card-content p {
+        font-size: 12px;
     }
 
-    .card-content {
-        p {
-            font-size: 18px;
-            margin-bottom: 10px;
-            color: $text-color;
-        }
-    }
-
-    @media (max-width: 768px) {
-        .card {
-            padding: 15px;
-        }
-
-        .card-heading {
-            font-size: 20px;
-        }
-
-        .card-date,
-        .location-text,
-        .card-content p {
-            font-size: 12px;
-        }
-
-        .location-icon {
-            width: 16px;
-            height: 16px;
-            margin-right: 3px;
-        }
+    .location-icon {
+        width: 16px;
+        height: 16px;
+        margin-right: 3px;
     }
 }
