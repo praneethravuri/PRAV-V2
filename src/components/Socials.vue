@@ -1,13 +1,13 @@
 <template>
     <div class="socials-div">
         <div class="logo-div">
-            <a href="mailto:prav2500@gmail.com" target="_blank"><img src="../assets/images/email_bright_red.svg" alt="github logo" class="github logo"></a>
+            <a href="mailto:prav2500@gmail.com" target="_blank"><img src="../assets/images/email_bright_red.svg" alt="email logo" class="logo"></a>
         </div>
         <div class="logo-div">
-            <a href="https://github.com/praneethravuri" target="_blank"><img src="../assets/images/github_bright_red.svg" alt="github logo" class="github logo"></a>
+            <a href="https://github.com/praneethravuri" target="_blank"><img src="../assets/images/github_bright_red.svg" alt="github logo" class="logo"></a>
         </div>
         <div class="logo-div">
-            <a href="https://www.linkedin.com/in/praneeth-ravuri2500/" target="_blank"><img src="../assets/images/linkedin_bright_red.svg" alt="linkedin logo" class="linkedin logo"></a>
+            <a href="https://www.linkedin.com/in/praneeth-ravuri2500/" target="_blank"><img src="../assets/images/linkedin_bright_red.svg" alt="linkedin logo" class="logo"></a>
         </div>
 
         <div class="vertical-line"></div>
