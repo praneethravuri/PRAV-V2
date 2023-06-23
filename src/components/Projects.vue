@@ -75,6 +75,12 @@ export default {
                     tags : ["Javascript", "jQuery", "Bootstrap"]
                 },
                 {
+                    projectName : "Jet Sphere",
+                    projectDescription : "A backend web application with JWT user authentication and validation, manage flight bookings, update / delete account, administrative database changes, and session management",
+                    githubLink : "https://github.com/praneethravuri/Jet-Sphere",
+                    tags : ["Javascript", "MongoDB", "Node", "Express.js"]
+                },
+                {
                     projectName : "Amazon Product Information Scraper",
                     projectDescription : "A web-scraping bot that retrieves product names, prices, review stars, and review counts for a specific category",
                     githubLink : "https://github.com/praneethravuri/Amazon-Product-Information-Scraper",
