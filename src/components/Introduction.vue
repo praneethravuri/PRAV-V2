@@ -9,7 +9,7 @@
         </div>
 
         <div class="description">
-            <p class="desc-1 slate-text">Master's in Computer Science Student at George Mason University</p>
+            <p class="desc-1">Master's in Computer Science Student at George Mason University</p>
             <p class="desc-2">Passionate about continuous learning and staying updated with the latest advancements in
                 technology</p>
         </div>
