@@ -7,32 +7,78 @@
     </div>
 
     <div class="card-grid">
-        <div class="card">
+        <div v-for="project in projects" :key="project.projectName" class="card">
             <div class="card-images">
                 <img src="../assets/images/code.svg" alt="Image 1" class="left-image">
                 <div class="card-images-right">
-                    <a href="https://github.com/praneethravuri/PRAV" target="_blank"><img src="../assets/images/github_bright_red.svg" alt="Image 2" class="right-image"></a>
-                    <a href="https://prav.dev/" target="_blank"><img src="../assets/images/external-link.svg" alt="Image 3" class="right-image"></a>
+                    <a v-if="project.githubLink" :href="project.githubLink" target="_blank">
+                        <img src="../assets/images/github_bright_red.svg" alt="Image 2" class="right-image">
+                    </a>
+                    <a v-if="project.websiteLink" :href="project.websiteLink" target="_blank">
+                        <img src="../assets/images/external-link.svg" alt="Image 3" class="right-image">
+                    </a>
                 </div>
             </div>
-            <h3 class="card-name">PRAV</h3>
-            <p class="card-description">First iteration of my personal website made using Sass and Vanilla Javascript. Contains dynamically generated content and clear user interface</p>
+            <h3 class="card-name">{{ project.projectName }}</h3>
+            <p class="card-description">{{ project.projectDescription }}</p>
             <div class="card-tags">
-                <span class="tag">Javascript</span>
-                <span class="tag">Sass</span>
-                <span class="tag">jQuery</span>
+                <span v-for="tag in project.tags" :key="tag" class="tag">{{ tag }}</span>
             </div>
         </div>
     </div>
 </template>
-
+  
 <script>
 export default {
     // eslint-disable-next-line vue/multi-word-component-names
-    name: "Projects"
-}
+    name: "Projects",
+    data() {
+        return {
+            projects: [
+                {
+                    projectName: "PRAV",
+                    projectDescription:
+                        "First iteration of my personal website designed on the fly with Sass and Vanilla Javascript and hosted on Netlify",
+                    websiteLink: "https://prav.dev/",
+                    githubLink: "https://github.com/praneethravuri/PRAV",
+                    tags: ["Javascript", "Sass", "jQuery"],
+                },
+                {
+                    projectName: "Weatherly",
+                    projectDescription: "Weatherly is a user-friendly website that seamlessly integrates with Google Maps to provide you with accurate and up-to-date weather information for any location around the world ",
+                    websiteLink: "https://elegant-kleicha-0bdc60.netlify.app/",
+                    tags: ["Javascript", "Sass", "jQuery"]
+                },
+                {
+                    projectName : "Horizon Airlines Bookings",
+                    projectDescription : "A full stack application to book and manage flight reservations made with Flask and MongoDB",
+                    githubLink : "https://github.com/praneethravuri/Horizon-Airlines-Bookings",
+                    tags : ["Javascript", "Flask", "MongoDB"]
+                },
+                {
+                    projectName : "Invespo",
+                    projectDescription : "Invespo: A stock trading front-end for SWE 632 course @ George Mason Univ. Built with HTML, CSS, JS, jQuery. Explores interface design principles in user-centric design.",
+                    githubLink : "https://github.com/praneethravuri/Invespo",
+                    tags : ["Javascript", "jQuery"]
+                },
+                {
+                    projectName : "Amazon Product Information Scraper",
+                    projectDescription : "A web-scraping bot that retrieves product names, prices, review stars, and review counts for a specific category",
+                    githubLink : "https://github.com/praneethravuri/Amazon-Product-Information-Scraper",
+                    tags : ["Python", "Selenium", "BeautifulSoup"]
+                },
+                {
+                    projectName : "Patriot Board",
+                    projectDescription : "A collaborative project designed to improve the UI of GMU's course registration website",
+                    tags : ["Javascript", "Selenium", "jQuery"]
+                }
+            ],
+        };
+    },
+};
 </script>
-
+  
 <style scoped lang="scss">
 @import "@/styles/projects.scss";
 </style>
+  
