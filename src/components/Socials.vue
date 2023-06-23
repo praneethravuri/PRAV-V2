@@ -1,6 +1,9 @@
 <template>
     <div class="socials-div">
         <div class="logo-div">
+            <a href="mailto:prav2500@gmail.com" target="_blank"><img src="../assets/images/email_bright_red.svg" alt="github logo" class="github logo"></a>
+        </div>
+        <div class="logo-div">
             <a href="https://github.com/praneethravuri" target="_blank"><img src="../assets/images/github_bright_red.svg" alt="github logo" class="github logo"></a>
         </div>
         <div class="logo-div">
