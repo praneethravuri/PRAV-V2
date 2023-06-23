@@ -12,6 +12,9 @@
                     <a class="nav-link" href="#"><span class="db-slash">// </span>Home</a>
                 </li>
                 <li class="nav-item">
+                    <a class="nav-link" href="#"><span class="db-slash">// </span>About Me</a>
+                </li>
+                <li class="nav-item">
                     <a class="nav-link" href="#"><span class="db-slash">// </span>Projects</a>
                 </li>
                 <li class="nav-item">
