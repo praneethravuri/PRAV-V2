@@ -2,7 +2,7 @@
   <Navigation />
   <Socials />
   <div class="section-width introduction">
-    <AboutMe />
+    <Introduction />
   </div>
 </template>
 
@@ -10,7 +10,7 @@
 
 import Navigation from './components/Navigation.vue';
 import Socials from './components/Socials.vue';
-import AboutMe from './components/AboutMe.vue';
+import Introduction from './components/Introduction.vue';
 
 export default {
   name: 'App',
@@ -19,7 +19,8 @@ export default {
     Navigation,
     // eslint-disable-next-line vue/no-unused-components
     Socials,
-    AboutMe
+    // eslint-disable-next-line vue/no-unused-components
+    Introduction,
   }
 }
 </script>

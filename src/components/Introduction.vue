@@ -18,7 +18,8 @@
 
 <script>
 export default {
-    name: "AboutMe"
+    // eslint-disable-next-line vue/multi-word-component-names
+    name: "Introduction"
 }
 </script>
 
