@@ -24,5 +24,5 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-@import "@/styles/aboutMe.scss";
+@import "@/styles/introduction.scss";
 </style>
