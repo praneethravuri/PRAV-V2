@@ -3,76 +3,74 @@
 nav {
     padding: 20px;
     font-family: 'Source Code Pro', monospace;
-}
 
-.nav-link {
-    color: $bright-red;
-    font-size: 18px;
-    transition: $transition;
-    margin: 0 10px;
-}
-
-.nav-link:hover {
-    color: $dark-red;
-}
-
-.db-slash {
-    color: $slate;
-    font-weight: bold;
-}
-
-.resume-slash {
-    display: none;
-}
-
-.resume-btn {
-    border: 1px solid $bright-red;
-    padding: 10px 15px;
-    border-radius: 3px;
-    color: $bright-red;
-    text-decoration: none;
-    transition: $transition;
-}
-
-.resume-btn:hover {
-    box-shadow: 5px 5px $bright-red;
-}
-
-.prav-heading {
-    font-size: 2rem;
-    color: $bright-red;
-    font-style: italic;
-    font-weight: bold;
-    transition: $transition;
-}
-
-.hamburger-menu {
-    color: $bright-red;
-}
-
-
-@media (max-width: 1000px) {
-    .resume-btn {
-        margin: 0 10px;
-        border: none;
+    .nav-link {
+        color: $bright-red;
         font-size: 18px;
-        padding: 0;
+        margin: 0 10px;
+        transition: $transition;
+
+        &:hover {
+            color: $dark-red;
+        }
+    }
+
+    .db-slash {
+        color: $slate;
+        font-weight: bold;
     }
 
     .resume-slash {
-        display: inline;
-    }
-
-    .resume-btn:hover {
-        box-shadow: none;
-    }
-
-    .hamburger-menu:focus {
-        border: none;
-    }
-
-    .db-slash{
         display: none;
     }
 
+    .resume-btn {
+        border: 1px solid $bright-red;
+        padding: 10px 15px;
+        border-radius: 3px;
+        color: $bright-red;
+        text-decoration: none;
+        transition: $transition;
+
+        &:hover {
+            box-shadow: 5px 5px $bright-red;
+        }
+    }
+
+    .prav-heading {
+        font-size: 2rem;
+        color: $bright-red;
+        font-style: italic;
+        font-weight: bold;
+        transition: $transition;
+    }
+
+    .hamburger-menu {
+        color: $bright-red;
+    }
+
+    @media (max-width: 1000px) {
+        .resume-btn {
+            margin: 0 10px;
+            border: none;
+            font-size: 18px;
+            padding: 0;
+
+            &:hover {
+                box-shadow: none;
+            }
+        }
+
+        .resume-slash {
+            display: inline;
+        }
+
+        .hamburger-menu:focus {
+            border: none;
+        }
+
+        .db-slash {
+            display: none;
+        }
+    }
 }
