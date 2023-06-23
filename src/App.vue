@@ -8,6 +8,10 @@
   <div class="section-width projects">
     <Projects />
   </div>
+
+  <div class="section-width experience">
+    <Experience />
+  </div>
 </template>
 
 <script>
@@ -16,6 +20,7 @@ import Navigation from './components/Navigation.vue';
 import Socials from './components/Socials.vue';
 import Introduction from './components/Introduction.vue';
 import Projects from './components/Projects.vue';
+import Experience from './components/Experience.vue';
 
 export default {
   name: 'App',
@@ -27,7 +32,9 @@ export default {
     // eslint-disable-next-line vue/no-unused-components
     Introduction,
     // eslint-disable-next-line vue/no-unused-components
-    Projects
+    Projects,
+    // eslint-disable-next-line vue/no-unused-components
+    Experience
   }
 }
 </script>

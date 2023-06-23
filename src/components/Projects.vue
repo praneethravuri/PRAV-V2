@@ -44,6 +44,13 @@ export default {
                     tags: ["Javascript", "Sass", "jQuery"],
                 },
                 {
+                    projectName: "PRAV V2",
+                    projectDescription:
+                        "Unlike the first iteration, PRAV V2 is made with Vue.js and Scss. Hosted on Netlify",
+                    githubLink: "https://github.com/praneethravuri/PRAV-V2",
+                    tags: ["Vue.js", "Javascript", "Scss", "jQuery"],
+                },
+                {
                     projectName: "Weatherly",
                     projectDescription: "Weatherly is a user-friendly website that seamlessly integrates with Google Maps to provide you with accurate and up-to-date weather information for any location around the world ",
                     websiteLink: "https://elegant-kleicha-0bdc60.netlify.app/",
@@ -53,13 +60,19 @@ export default {
                     projectName : "Horizon Airlines Bookings",
                     projectDescription : "A full stack application to book and manage flight reservations made with Flask and MongoDB",
                     githubLink : "https://github.com/praneethravuri/Horizon-Airlines-Bookings",
-                    tags : ["Javascript", "Flask", "MongoDB"]
+                    tags : ["Javascript", "Flask", "MongoDB", "Bootstrap"]
+                },
+                {
+                    projectName : "Task Tracker",
+                    projectDescription : "A frontend project made with Vue.js. Includes functions like add, update, and delete tasks and set reminders",
+                    githubLink : "https://github.com/praneethravuri/Task-Tracker",
+                    tags : ["Vue.js, Javascript"]
                 },
                 {
                     projectName : "Invespo",
                     projectDescription : "Invespo: A stock trading front-end for SWE 632 course @ George Mason Univ. Built with HTML, CSS, JS, jQuery. Explores interface design principles in user-centric design.",
                     githubLink : "https://github.com/praneethravuri/Invespo",
-                    tags : ["Javascript", "jQuery"]
+                    tags : ["Javascript", "jQuery", "Bootstrap"]
                 },
                 {
                     projectName : "Amazon Product Information Scraper",
