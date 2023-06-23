@@ -3,6 +3,10 @@
 nav {
     padding: 20px;
     font-family: $source-code-pro-font;
+    position: fixed;
+    background-color: $dark-blue;
+    width: 100%;
+    z-index: 999;
 
     .nav-link {
         color: $bright-red;

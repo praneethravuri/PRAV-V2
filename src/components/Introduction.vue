@@ -1,7 +1,7 @@
 <template>
     <div class="container">
         <div class="hi">
-            <p class="hi-text"><span title="Hello" style="color: #FF4057;">నమస్కారం</span>, I'm</p>
+            <p class="hi-text"><span title="Hello" style="color: #FF4057;">నమస్కారం, </span>I'm</p>
         </div>
 
         <div class="name">
