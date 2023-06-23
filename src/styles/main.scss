@@ -13,7 +13,7 @@
 body {
   background-color: $dark-blue;
   text-decoration: none;
-  font-family: 'Inter', sans-serif;
+  font-family: $inter-font;
   color : $text-color;
   font-weight: 600;
   font-size: 18px;
@@ -29,6 +29,22 @@ html, body{
   margin-left: 10%;
   padding: 20px;
 }
+
+.section-title{
+  font-size: clamp(3rem, 3vw, 5rem);
+}
+
+.section-title p{
+  margin: 0;
+  text-shadow: 10px 0px black;
+}
+
+.section-line {
+  background-color: $bright-red;
+  height: 5px;
+  width: 50%;
+}
+
 
 .introduction{
   height: 85vh;
