@@ -24,7 +24,7 @@
                         <a class="nav-link" href="#contact"><span class="db-slash">// </span>Contact Me</a>
                     </li>
                     <li class="nav-item">
-                        <a class="resume-btn" href="#"><span class="db-slash resume-slash">// </span>Resume</a>
+                        <a class="resume-btn" href="https://drive.google.com/file/d/1AiUdUmqhrWz8wlmGVeOhDD2Pr5CBxW7C/view?usp=sharing" target="_blank"><span class="db-slash resume-slash">// </span>Resume</a>
                     </li>
                 </ul>
             </div>
