@@ -26,3 +26,13 @@ p {
     text-align: left;
     font-family: $source-code-pro-font;
 }
+
+@media (max-width: 600px) {
+    .container {
+        margin-top: 0px;
+
+        & .name-text {
+            font-size: clamp(5rem, 6vw, 7rem);
+        }
+    }
+}

@@ -84,17 +84,17 @@
         }
     }
 
-}
+    .location {
 
-.location {
+        &-icon {
+            width: 16px;
+            height: 16px;
+            margin-right: 3px;
+        }
 
-    &-icon {
-        width: 16px;
-        height: 16px;
-        margin-right: 3px;
+        &-text {
+            font-size: 15px;
+        }
     }
 
-    &-text {
-        font-size: 15px;
-    }
 }
