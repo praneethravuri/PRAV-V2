@@ -54,6 +54,7 @@ p {
     &:hover &-content {
         visibility: visible;
         opacity: 1;
+        border: 1px solid $bright-red;
     }
 
 }
