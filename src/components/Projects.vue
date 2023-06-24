@@ -6,6 +6,8 @@
         <div class="section-line"></div>
     </div>
 
+    <p class="disclaimer"><span>Disclaimer:</span> Some project source code is unavailable due to its association with GMU courses and to uphold the integrity of the <span><a href="https://oai.gmu.edu/full-honor-code-document/" target="_blank">GMU Honor Code</a></span></p>
+
     <div class="card-grid">
         <div v-for="project in projects" :key="project.projectName" class="card">
             <div class="card-images">

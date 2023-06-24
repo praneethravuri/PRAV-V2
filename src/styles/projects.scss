@@ -59,6 +59,21 @@
     color: $bright-red;
 }
 
+.disclaimer{
+    margin-top: 20px;
+
+    & span, & a{
+        color: $bright-red;
+        transition: $transition;
+        font-family: $source-code-pro-font;
+        text-decoration: none;
+    }
+
+    & a:hover{
+        color: $dark-red;
+    }
+}
+
 @media (min-width: 768px) {
     .card-grid {
         grid-template-columns: repeat(2, 1fr);
