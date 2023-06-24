@@ -27,6 +27,36 @@ p {
     font-family: $source-code-pro-font;
 }
 
+.popup {
+    position: relative;
+    display: inline-block;
+    color: $bright-red;
+    cursor: default;
+}
+
+.popup .popup-content {
+    visibility: hidden;
+    width: 120px;
+    background-color: $light-dark-blue;
+    color: $bright-red;
+    text-align: center;
+    padding: 8px;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    transform: translateX(-50%);
+    opacity: 0;
+    transition: visibility 0s, opacity 0.3s;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+    
+}
+
+.popup:hover .popup-content {
+    visibility: visible;
+    opacity: 1;
+}
+
 @media (max-width: 600px) {
     .container {
         margin-top: 0px;
