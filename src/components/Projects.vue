@@ -49,7 +49,7 @@ export default {
                         "Unlike the first iteration, PRAV V2 is made with Vue.js and Scss. Hosted on Netlify",
                     githubLink: "https://github.com/praneethravuri/PRAV-V2",
                     websiteLink : "https://prav-v2.netlify.app/",
-                    tags: ["Vue.js", "Javascript", "Scss", "jQuery"],
+                    tags: ["Vue.js", "Javascript", "Scss"],
                 },
                 {
                     projectName: "Weatherly",
