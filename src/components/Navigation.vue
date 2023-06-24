@@ -12,7 +12,7 @@
                         <a class="nav-link" href="#navigation"><span class="db-slash">// </span>Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#"><span class="db-slash">// </span>About Me</a>
+                        <a class="nav-link" href="#about"><span class="db-slash">// </span>About Me</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#projects"><span class="db-slash">// </span>Projects</a>

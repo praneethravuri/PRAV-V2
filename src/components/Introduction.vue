@@ -10,14 +10,7 @@
 
         <div class="description">
             <p class="desc-1">Graduate Computer Science Student at George Mason University</p>
-            <p class="desc-2">Passionate about continuous learning and staying updated with the latest advancements in
-                technology</p>
-        </div>
-
-        <div class="skills-container">
-            <div class="skills" v-for="skill in skills" :key="skill">
-                <p>{{ skill }}</p>
-            </div>
+            <p class="desc-2">Passionate about web development and software engineering</p>
         </div>
     </div>
 </template>
@@ -26,11 +19,6 @@
 export default {
     // eslint-disable-next-line vue/multi-word-component-names
     name: "Introduction",
-    data() {
-        return {
-            skills: ["Python", "Javascript", "jQuery", "Express.js", "Node.js", "Vue.js", "Flask", "MongoDB", "Sass", "C"]
-        }
-    }
 }
 </script>
 

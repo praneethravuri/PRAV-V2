@@ -23,12 +23,15 @@ textarea {
   color: $text-color;
   font-weight: 600;
   transition: $transition;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+  font-family: $source-code-pro-font;
 }
 
 input:focus,
 textarea:focus {
     outline: none;
     background-color: $dark-blue;
+    
 }
 
 button[type="submit"] {

@@ -2,7 +2,7 @@
   <img src="./banner.png" />
 </p>
 
-### [Website Link - Netlify](https://splendorous-selkie-898298.netlify.app/)
+### [Website Link - Netlify](https://prav-v2.netlify.app//)
 
 ## Project setup
 ```

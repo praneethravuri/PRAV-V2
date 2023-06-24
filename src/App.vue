@@ -9,6 +9,10 @@
     <Introduction />
   </div>
 
+  <div class="section-width" id="about">
+    <About />
+  </div>
+
   <div class="section-width projects" id="projects">
     <Projects />
   </div>
@@ -30,6 +34,7 @@
 
 import Navigation from './components/Navigation.vue';
 import Socials from './components/Socials.vue';
+import About from './components/About.vue';
 import Introduction from './components/Introduction.vue';
 import Projects from './components/Projects.vue';
 import Experience from './components/Experience.vue';
@@ -45,6 +50,8 @@ export default {
     Socials,
     // eslint-disable-next-line vue/no-unused-components
     Introduction,
+    // eslint-disable-next-line vue/no-unused-components
+    About,
     // eslint-disable-next-line vue/no-unused-components
     Projects,
     // eslint-disable-next-line vue/no-unused-components
