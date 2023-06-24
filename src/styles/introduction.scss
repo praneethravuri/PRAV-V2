@@ -57,6 +57,23 @@ p {
     opacity: 1;
 }
 
+.location {
+
+    display: flex;
+
+    &-icon {
+        width: 20px;
+        height: 20px;
+        margin-right: 5px;
+        fill: $bright-red;
+    }
+
+    &-text {
+        font-size: 18px;
+        color: $bright-red;
+    }
+}
+
 @media (max-width: 600px) {
     .container {
         margin-top: 0px;

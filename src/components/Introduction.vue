@@ -3,7 +3,7 @@
         <div class="hi">
             <p class="hi-text">
                 <span class="popup">
-                    నమస్కారం, 
+                    నమస్కారం,
                     <span class="popup-content">Hello</span>
                 </span>
                 I'm
@@ -18,6 +18,15 @@
             <p class="desc-1">Graduate Computer Science Student at George Mason University</p>
             <p class="desc-2">Passionate about web development and software engineering</p>
         </div>
+
+        <div class="location">
+            <svg class="location-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                <path
+                    d="M12 0C7.304 0 3 4.304 3 9c0 1.54.424 2.996 1.155 4.255L12 24l7.845-10.746C20.576 11.996 21 10.54 21 9c0-4.696-4.304-9-9-9zm0 13a3 3 0 100-6 3 3 0 000 6z" />
+            </svg>
+            <p class="location-text">Fairfax, VA</p>
+        </div>
+
     </div>
 </template>
 
