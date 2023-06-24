@@ -1,0 +1,39 @@
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+label {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+  width: 80%;
+  color: $bright-red;
+}
+
+input[type="email"],
+textarea {
+  padding: 10px;
+  font-size: 16px;
+  background-color: $light-dark-blue;
+  border-radius: 8px;
+  border: none;
+  color: $text-color;
+  font-weight: 600;
+}
+
+button[type="submit"] {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: $dark-blue;
+  color: $bright-red;
+  font-weight: bold;
+  border: 1px solid $bright-red;
+  transition: $transition;
+}
+
+button[type="submit"]:hover{
+  box-shadow: 5px 5px $bright-red;
+}
