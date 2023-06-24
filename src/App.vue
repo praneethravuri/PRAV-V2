@@ -13,8 +13,12 @@
     <Experience />
   </div>
 
-  <div class="section-width experience">
+  <div class="section-width">
     <Contact />
+  </div>
+
+  <div class="section-width" style="padding: 0;">
+    <Footer />
   </div>
 </template>
 
@@ -26,6 +30,7 @@ import Introduction from './components/Introduction.vue';
 import Projects from './components/Projects.vue';
 import Experience from './components/Experience.vue';
 import Contact from './components/Contact.vue';
+import Footer from './components/Footer.vue';
 
 export default {
   name: 'App',
@@ -41,7 +46,9 @@ export default {
     // eslint-disable-next-line vue/no-unused-components
     Experience,
     // eslint-disable-next-line vue/no-unused-components
-    Contact
+    Contact,
+    // eslint-disable-next-line vue/no-unused-components
+    Footer
   }
 }
 </script>
