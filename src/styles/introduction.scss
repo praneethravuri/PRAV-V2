@@ -1,19 +1,5 @@
 @import './variables';
 
-div {
-    margin: 30px 0px 10px 0px;
-    font-size: clamp(1rem, 1.5vw, 2rem);
-}
-
-
-
-.name-text {
-    font-size: clamp(6rem, 7vw, 8rem);
-    line-height: 100%;
-    font-weight: 600;
-    text-shadow: 10px 0px black;
-}
-
 .container {
     margin-top: 200px;
     display: flex;
@@ -21,7 +7,20 @@ div {
     justify-content: center;
     align-items: flex-start;
     height: 100vh;
+
+    & div {
+        margin: 30px 0px 10px 0px;
+        font-size: clamp(1rem, 1.5vw, 2rem);
+    }
+
+    & .name-text {
+        font-size: clamp(6rem, 7vw, 8rem);
+        line-height: 100%;
+        font-weight: 600;
+        text-shadow: 10px 0px black;
+    }
 }
+
 
 p {
     text-align: left;

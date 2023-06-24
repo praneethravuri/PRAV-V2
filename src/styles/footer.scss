@@ -1,13 +1,13 @@
-.footer-content{
+.footer-content {
     text-align: center;
     padding: 30px;
     z-index: 999;
-}
 
-.footer-content p{
-    color: $bright-red;
-    font-family: $source-code-pro-font;
-    letter-spacing: -1px;
-    border-top: 1px solid $dark-red;
-    padding: 20px;
+    & p {
+        color: $bright-red;
+        font-family: $source-code-pro-font;
+        letter-spacing: -1px;
+        border-top: 1px solid $dark-red;
+        padding: 20px;
+    }
 }

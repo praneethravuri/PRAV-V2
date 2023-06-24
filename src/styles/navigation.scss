@@ -24,20 +24,23 @@ nav {
         font-weight: bold;
     }
 
-    .resume-slash {
-        display: none;
-    }
-
-    .resume-btn {
-        border: 1px solid $bright-red;
-        padding: 10px 15px;
-        color: $bright-red;
-        text-decoration: none;
-        transition: $transition;
-
-        &:hover {
-            box-shadow: 5px 5px $bright-red;
+    .resume {
+        &-slash {
+            display: none;
         }
+
+        &-btn {
+            border: 1px solid $bright-red;
+            padding: 10px 15px;
+            color: $bright-red;
+            text-decoration: none;
+            transition: $transition;
+
+            &:hover {
+                box-shadow: 5px 5px $bright-red;
+            }
+        }
+
     }
 
     .prav-heading {
@@ -46,10 +49,10 @@ nav {
         font-style: italic;
         font-weight: bold;
         transition: $transition;
-    }
 
-    .prav-heading:hover{
-        color: $slate;
+        &:hover {
+            color: $slate;
+        }
     }
 
     .hamburger-menu {

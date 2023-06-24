@@ -5,6 +5,60 @@
     margin: 20px 0px;
 }
 
+.card {
+    padding: 20px;
+    background-color: $light-dark-blue;
+    height: 350px;
+    font-family: $source-code-pro-font;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+    transition: $transition;
+    cursor: pointer;
+
+    &:hover {
+        transform: translateY(-7px);
+    }
+
+    &-images {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 10px;
+    }
+
+    &-name {
+        font-size: 1.5rem;
+        margin: 0;
+        color: $bright-red;
+        font-weight: 600;
+        margin-top: 20px;
+    }
+
+    &-description {
+        margin: 10px 0;
+        height: 90%;
+        color: $text-color;
+    }
+
+    &-tags {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
+.right-image,
+.left-image {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+.tag {
+    font-size: 1rem;
+    color: #fff;
+    margin-right: 15px;
+    margin-bottom: 5px;
+    color: $bright-red;
+}
+
 @media (min-width: 768px) {
     .card-grid {
         grid-template-columns: repeat(2, 1fr);
@@ -15,60 +69,4 @@
     .card-grid {
         grid-template-columns: repeat(3, 1fr);
     }
-}
-
-.card {
-    padding: 20px;
-    background-color: $light-dark-blue;
-    height: 350px;
-    font-family: $source-code-pro-font;
-    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
-    transition: $transition;
-    cursor: pointer;
-}
-
-.card:hover {
-    transform: translateY(-7px);
-}
-
-.card-images {
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 10px;
-}
-
-.right-image,
-.left-image {
-    width: 30px;
-    height: 30px;
-    /* Added height to match width */
-    margin-right: 10px;
-}
-
-.card-name {
-    font-size: 1.5rem;
-    margin: 0;
-    color: $bright-red;
-    font-weight: 600;
-    margin-top: 20px;
-    ;
-}
-
-.card-description {
-    margin: 10px 0;
-    height: 90%;
-    color: $text-color;
-}
-
-.card-tags {
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.tag {
-    font-size: 1rem;
-    color: #fff;
-    margin-right: 15px;
-    margin-bottom: 5px;
-    color: $bright-red;
 }

@@ -14,43 +14,48 @@ body {
   background-color: $dark-blue;
   text-decoration: none;
   font-family: $inter-font;
-  color : $text-color;
+  color: $text-color;
   font-weight: 600;
   font-size: 18px;
 }
 
-html, body{
+html,
+body {
   scrollbar-width: thin;
   scrollbar-color: $bright-red $dark-blue ;
 }
 
-.section-width{
-  width: 90%;
-  margin-left: 10%;
-  padding: 20px;
+.section {
+
+  &-width {
+    width: 90%;
+    margin-left: 10%;
+    padding: 20px;
+  }
+
+  &-title {
+    font-size: clamp(3rem, 3vw, 5rem);
+  }
+
+  &-title p {
+    margin: 0;
+    text-shadow: 10px 0px black;
+  }
+
+  &-line {
+    background-color: $bright-red;
+    height: 5px;
+    width: 50%;
+  }
+
+  &-heading {
+    margin-top: 7%;
+  }
+
 }
 
-.section-title{
-  font-size: clamp(3rem, 3vw, 5rem);
-}
 
-.section-title p{
-  margin: 0;
-  text-shadow: 10px 0px black;
-}
-
-.section-line {
-  background-color: $bright-red;
-  height: 5px;
-  width: 50%;
-}
-
-.section-heading{
-  margin-top: 7%;
-}
-
-
-.introduction{
+.introduction {
   height: 85vh;
   display: flex;
   justify-content: center;
@@ -58,7 +63,7 @@ html, body{
 }
 
 @media (max-width: 600px) {
-  .section-width{
+  .section-width {
     width: 100%;
     margin: 0;
   }

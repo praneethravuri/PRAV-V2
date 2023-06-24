@@ -2,10 +2,10 @@
 
 .vertical-line {
     width: 1px;
-    height: 25%; /* Adjust the height as needed */
-    background-color: $bright-red; /* Set the color of the line */
-  }
-  
+    height: 25%;
+    background-color: $bright-red;
+}
+
 
 .socials-div {
     position: fixed;
@@ -23,19 +23,20 @@
     }
 }
 
-.logo-div {
-    width: 100%;
-    text-align: center;
-    margin-bottom: 10px;
-}
 
 .logo {
     width: 35px;
     margin: 10px;
     transition: $transition;
-}
 
-.logo:hover{
-    transform: translateY(-7px);
-    border: none;
+    &-div {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    &:hover {
+        transform: translateY(-7px);
+        border: none;
+    }
 }
