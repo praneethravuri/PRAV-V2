@@ -7,7 +7,7 @@
   </div>
 
   <div class="exp-cards">
-    
+
     <div class="card">
       <div class="card-header">
         <h2 class="card-heading">Software Development Intern @ Cognizant</h2>
@@ -21,10 +21,10 @@
       </div>
       <p class="card-date">Jan. 2022 - Jun. 2022</p>
       <div class="card-content">
-        <p>Implemented Waterfall, Agile, and Rapid Application Development methodologies to complete projects in 90% of
-          sprints</p>
-        <p>Developed and maintained enterprise web applications, utilizing Restful APIs and CDNs to achieve a 30% overall
-          system performance boost</p>
+        <p>Developed responsive and user-friendly web application interfaces using front-end technologies and frameworks,
+          achieving a remarkable 34% reduction in latency.</p>
+        <p>Developed and maintained enterprise web applications, leveraging Restful APIs and CDNs to achieve a notable 30%
+          improvement in system performance.</p>
       </div>
     </div>
 
@@ -41,8 +41,8 @@
       </div>
       <p class="card-date">Aug. 2021 - Oct. 2021</p>
       <div class="card-content">
-        <p>Delivered 3 optimized website builds based on client wireframes, resulting in 95% client satisfaction</p>
-        <p>Collaborated with UX designers to ensure compatibility between design elements and APIs, ensuring product functionality</p>
+        <p>Implemented front-end performance optimizations, including lazy loading and code minification, resulting in a significant 15% reduction in the website's overall file size</p>
+        <p>Collaborated with UX designers to ensure seamless compatibility between design elements and application programming interfaces, guaranteeing optimal product functionality.</p>
       </div>
     </div>
 
@@ -59,8 +59,8 @@
       </div>
       <p class="card-date">May. 2019 - May. 2022</p>
       <div class="card-content">
-        <p>Headed the IEEE GRIET SB web development team</p>
-        <p>Took charge of the creation, operation, and the maintenance of the website</p>
+        <p>Headed the IEEE GRIET SB web development team and took charge of the creation, operation, and the maintenance of the website</p>
+        <p>Selected as the student ambassador for IEEE xTreme 14.0, 2020 competition, responsible for overseeing and coordinating all college participants in the hackathon.</p>
       </div>
     </div>
 

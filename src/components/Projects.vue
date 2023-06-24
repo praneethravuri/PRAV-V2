@@ -6,7 +6,9 @@
         <div class="section-line"></div>
     </div>
 
-    <p class="disclaimer"><span>Disclaimer:</span> Some project source code is unavailable due to its association with GMU courses and to uphold the integrity of the <span><a href="https://oai.gmu.edu/full-honor-code-document/" target="_blank">GMU Honor Code</a></span></p>
+    <p class="disclaimer"><span>Disclaimer:</span> Some project source code is unavailable due to its association with GMU
+        courses and to uphold the integrity of the <span><a href="https://oai.gmu.edu/full-honor-code-document/"
+                target="_blank">GMU Honor Code</a></span></p>
 
     <div class="card-grid">
         <div v-for="project in projects" :key="project.projectName" class="card">
@@ -61,19 +63,20 @@ export default {
                 },
                 {
                     projectName: "Horizon Airlines Bookings",
-                    projectDescription: "A full stack application to book and manage flight reservations made with Flask and MongoDB",
+                    projectDescription: "A full-stack application built using Flask and MongoDB to book and manage flight reservations. This application was created for the INFS 750 course at GMU",
                     githubLink: "https://github.com/praneethravuri/Horizon-Airlines-Bookings",
                     tags: ["Javascript", "Flask", "MongoDB", "Bootstrap"]
                 },
                 {
-                    projectName: "Task Tracker",
-                    projectDescription: "A frontend project made with Vue.js. Includes functions like add, update, and delete tasks and set reminders",
-                    githubLink: "https://github.com/praneethravuri/Task-Tracker",
-                    tags: ["Vue.js" , "Javascript"]
+                    projectName: "Patriot Board",
+                    projectDescription: "A collaborative project designed to improve the UI of GMU's course registration website",
+                    githubLink: "https://github.com/praneethravuri/Patriot-Board",
+                    websiteLink : "http://mason.gmu.edu/~kdonapat/index",
+                    tags: ["Javascript", "Selenium", "jQuery"]
                 },
                 {
                     projectName: "Invespo",
-                    projectDescription: "Invespo: A stock trading front-end for SWE 632 course @ George Mason Univ. Built with HTML, CSS, JS, jQuery. Explores interface design principles in user-centric design.",
+                    projectDescription: "Invespo: A stock trading front-end for SWE 632 course @ George Mason Univ. Built with HTML, CSS, JS, jQuery. Explores interface design principles in user-centric design",
                     githubLink: "https://github.com/praneethravuri/Invespo",
                     tags: ["Javascript", "jQuery", "Bootstrap"]
                 },
@@ -90,10 +93,12 @@ export default {
                     tags: ["Python", "Selenium", "BeautifulSoup"]
                 },
                 {
-                    projectName: "Patriot Board",
-                    projectDescription: "A collaborative project designed to improve the UI of GMU's course registration website",
-                    tags: ["Javascript", "Selenium", "jQuery"]
+                    projectName: "Task Tracker",
+                    projectDescription: "A frontend project made with Vue.js. Includes functions like add, update, and delete tasks and toggle set reminders",
+                    githubLink: "https://github.com/praneethravuri/Task-Tracker",
+                    tags: ["Vue.js", "Javascript"]
                 }
+
             ],
         };
     },
