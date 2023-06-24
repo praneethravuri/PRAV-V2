@@ -1,5 +1,6 @@
 <p align="center">
-  <img src="./banner.png" />
+ <a href="https://prav.dev/" target = "_blank"><img src="./banner.png" /></a> 
+  
 </p>
 
 <p align="center">
@@ -18,6 +19,8 @@
 ## Inspired by
 1. [Brittany Chiang](https://v4.brittanychiang.com/)
 2. [Kenneth Jimmy](https://kenjimmy.me/)
+
+### [https://prav.dev/](https://prav.dev/)
 
 ### [Website Link - Netlify](https://prav-v2.netlify.app//)
 
