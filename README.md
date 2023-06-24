@@ -2,6 +2,10 @@
   <img src="./banner.png" />
 </p>
 
+## Inspired by
+1. [Brittany Chiang](https://v4.brittanychiang.com/)
+2. [Kenneth Jimmy](https://kenjimmy.me/)
+
 ### [Website Link - Netlify](https://prav-v2.netlify.app//)
 
 ## Project setup
