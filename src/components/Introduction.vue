@@ -28,7 +28,7 @@ export default {
     name: "Introduction",
     data() {
         return {
-            skills: ["Python", "Javascript", "jQuery", "Express.js", "Node.js", "Vue.js", "Flask", "MongoDB", "Sass"]
+            skills: ["Python", "Javascript", "jQuery", "Express.js", "Node.js", "Vue.js", "Flask", "MongoDB", "Sass", "C"]
         }
     }
 }

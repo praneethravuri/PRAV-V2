@@ -11,7 +11,8 @@
     "core-js": "^3.8.3",
     "sass": "^1.63.6",
     "sass-loader": "^13.3.2",
-    "vue": "^3.2.13"
+    "vue": "^3.2.13",
+    "vue-scrollto": "^2.20.0"
   },
   "devDependencies": {
     "@babel/core": "^7.12.16",
