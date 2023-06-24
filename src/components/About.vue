@@ -23,7 +23,7 @@
         </div>
 
         <div class="about-3">
-            <p>I am fueled by a burning passion for web development and I am more than ready to take on exciting full-time opportunities in the field!. I am currently open to full-time opportunities, and my inbox is always open for connecting and networking.<span><a href="mailto: prav2500@gmail.com" class="about-contact-link">Feel free to say hi!</a></span></p>
+            <p>I am fueled by a burning passion for web development and I am more than ready to take on exciting full-time opportunities in the field! I am currently open to full-time opportunities, and my inbox is always open for connecting and networking. <span><a href="mailto: prav2500@gmail.com" class="about-contact-link">Feel free to say hi!</a></span></p>
         </div>
 
         <div class="skills-container">
