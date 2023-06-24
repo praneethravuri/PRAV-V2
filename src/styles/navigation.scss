@@ -48,6 +48,10 @@ nav {
         transition: $transition;
     }
 
+    .prav-heading:hover{
+        color: $slate;
+    }
+
     .hamburger-menu {
         color: $bright-red;
     }
