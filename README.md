@@ -63,3 +63,5 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 
 1. Inter
 2. Source Code Pro
+
+<a href="https://www.flaticon.com/free-icons/satan" title="satan icons">Satan icons created by wanicon - Flaticon</a>
