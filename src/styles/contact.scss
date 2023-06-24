@@ -26,14 +26,12 @@ textarea {
   transition: $transition;
   box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
   font-family: $source-code-pro-font;
-}
 
-input:focus,
-textarea:focus {
+  &:focus {
     outline: none;
     background-color: $dark-blue;
     box-shadow: none;
-    
+  }
 }
 
 button[type="submit"] {
@@ -44,8 +42,8 @@ button[type="submit"] {
   font-weight: bold;
   border: 1px solid $bright-red;
   transition: $transition;
-}
 
-button[type="submit"]:hover{
-  box-shadow: 5px 5px $bright-red;
+  &:hover {
+    box-shadow: 5px 5px $bright-red;
+  }
 }
