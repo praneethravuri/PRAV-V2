@@ -2,6 +2,7 @@
 
     <div class="footer-content">
         <p>Designed and Built by Praneeth Ravuri</p>
+        <p style="font-size: 12px; border: none;">2023 &copy; All Rights Reserved</p>
     </div>
 </template>
 
