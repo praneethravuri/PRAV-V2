@@ -70,3 +70,9 @@
         grid-template-columns: repeat(3, 1fr);
     }
 }
+
+@media (max-width: 600px){
+    .card-description{
+        font-size: 12px
+    }
+}
