@@ -32,4 +32,10 @@
 .logo {
     width: 35px;
     margin: 10px;
+    transition: $transition;
+}
+
+.logo:hover{
+    transform: translateY(-7px);
+    border: none;
 }
