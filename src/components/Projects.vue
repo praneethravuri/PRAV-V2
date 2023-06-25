@@ -11,14 +11,14 @@
                 target="_blank">GMU Honor Code</a></span></p>
 
     <div class="card-grid">
-        <div v-for="project in projects" :key="project.projectName" class="card">
+        <div v-for="project in projects" :key="project.projectName" class="card" @click="redirectToLink(project)">
             <div class="card-images">
                 <img src="../assets/images/code.svg" alt="Image 1" class="left-image">
                 <div class="card-images-right">
-                    <a v-if="project.githubLink" :href="project.githubLink" target="_blank">
+                    <a v-if="project.githubLink" :href="project.githubLink" target="_blank" @click.stop>
                         <img src="../assets/images/github_bright_red.svg" alt="Image 2" class="right-image">
                     </a>
-                    <a v-if="project.websiteLink" :href="project.websiteLink" target="_blank">
+                    <a v-if="project.websiteLink" :href="project.websiteLink" target="_blank" @click.stop>
                         <img src="../assets/images/external-link.svg" alt="Image 3" class="right-image">
                     </a>
                 </div>
@@ -71,7 +71,7 @@ export default {
                     projectName: "Patriot Board",
                     projectDescription: "A collaborative project designed to improve the UI of GMU's course registration website",
                     githubLink: "https://github.com/praneethravuri/Patriot-Board",
-                    websiteLink : "http://mason.gmu.edu/~kdonapat/index",
+                    websiteLink: "http://mason.gmu.edu/~kdonapat/index",
                     tags: ["Javascript", "Selenium", "jQuery"]
                 },
                 {
@@ -102,6 +102,16 @@ export default {
             ],
         };
     },
+    methods: {
+        redirectToLink(project) {
+            if (project.websiteLink) {
+                window.open(project.websiteLink, "_blank");
+            } else if (project.githubLink) {
+                window.open(project.githubLink, "_blank");
+            }
+        }
+    }
+
 };
 </script>
   
