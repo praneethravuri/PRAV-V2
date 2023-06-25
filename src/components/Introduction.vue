@@ -27,6 +27,12 @@
             <p class="location-text">Fairfax, VA</p>
         </div>
 
+        <div class="skills-container">
+            <div class="skills" v-for="skill in skills" :key="skill">
+                <p>{{ skill }}</p>
+            </div>
+        </div>
+
     </div>
 </template>
 
@@ -34,6 +40,11 @@
 export default {
     // eslint-disable-next-line vue/multi-word-component-names
     name: "Introduction",
+    data() {
+        return {
+            skills: ["Python", "Javascript", "jQuery", "Express.js", "Node.js", "Vue.js", "Flask", "MongoDB", "Sass", "C"]
+        }
+    }
 }
 </script>
 

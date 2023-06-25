@@ -54,22 +54,23 @@
 .tag {
     font-size: 1rem;
     color: #fff;
-    margin-right: 15px;
+    margin-right: 20px;
     margin-bottom: 5px;
     color: $bright-red;
 }
 
-.disclaimer{
+.disclaimer {
     margin-top: 20px;
 
-    & span, & a{
+    & span,
+    & a {
         color: $bright-red;
         transition: $transition;
         font-family: $source-code-pro-font;
         text-decoration: none;
     }
 
-    & a:hover{
+    & a:hover {
         color: $dark-red;
     }
 }
@@ -86,8 +87,8 @@
     }
 }
 
-@media (max-width: 600px){
-    .card-description{
+@media (max-width: 600px) {
+    .card-description {
         font-size: 14px
     }
 }
