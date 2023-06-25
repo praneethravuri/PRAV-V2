@@ -63,3 +63,7 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 
 1. Inter
 2. Source Code Pro
+
+## Icons
+
+[Icons8](https://icons8.com/)
