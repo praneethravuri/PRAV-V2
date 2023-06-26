@@ -1,5 +1,4 @@
 <template>
-
   <div id="navigation">
     <Navigation />
   </div>
@@ -13,12 +12,12 @@
     <About />
   </div>
 
-  <div class="section-width projects" id="projects">
-    <Projects />
-  </div>
-
   <div class="section-width experience" id="experience">
     <Experience />
+  </div>
+
+  <div class="section-width projects" id="projects">
+    <Projects />
   </div>
 
   <div class="section-width" id="contact">
