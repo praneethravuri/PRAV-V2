@@ -61,12 +61,14 @@
 
 .disclaimer {
     margin-top: 20px;
+    font-family: $source-code-pro-font;
+    font-size: 15.5px;
 
     & span,
     & a {
         color: $bright-red;
         transition: $transition;
-        font-family: $source-code-pro-font;
+
         text-decoration: none;
     }
 
