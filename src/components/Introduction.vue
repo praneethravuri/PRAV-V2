@@ -1,13 +1,7 @@
 <template>
     <div class="container">
-        <div class="hi">
-            <p class="hi-text">
-                <span class="popup">
-                    నమస్కారం,
-                    <span class="popup-content">Hello</span>
-                </span>
-                I'm
-            </p>
+        <div class="intro-text">
+            <p><span class="telugu-text" v-on:mouseover="mouseover" v-on:mouseleave="mouseleave">{{message}}</span>, I'm</p>
         </div>
 
         <div class="name">
@@ -15,8 +9,8 @@
         </div>
 
         <div class="description">
-            <p class="desc-1">Graduate Computer Science Student at George Mason University</p>
-            <p class="desc-2">Passionate about web development and software engineering</p>
+            <p class="desc">Graduate Computer Science Student at George Mason University</p>
+            <p class="desc">Passionate about web development and software engineering</p>
         </div>
 
         <div class="location">
@@ -40,9 +34,19 @@
 export default {
     // eslint-disable-next-line vue/multi-word-component-names
     name: "Introduction",
+    el : ".telugu-text",
     data() {
         return {
-            skills: ["Python", "Javascript", "jQuery", "Express.js", "Node.js", "Vue.js", "Flask", "MongoDB", "Sass", "C"]
+            skills: ["Python", "Javascript", "jQuery", "Express.js", "Node.js", "Vue.js", "Flask", "MongoDB", "Sass", "C"],
+            message : "నమస్కారం"
+        }
+    },
+    methods : {
+        mouseover : function(){
+            this.message = "Hello"
+        },
+        mouseleave: function(){
+            this.message = "నమస్కారం"
         }
     }
 }

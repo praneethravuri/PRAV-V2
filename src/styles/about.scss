@@ -7,7 +7,6 @@
 
     & .about {
         width: 100%;
-        margin: 20px 0;
     }
 
     & div p {
@@ -25,13 +24,5 @@
 
     &:hover {
         color: $dark-red;
-    }
-}
-
-
-@media (min-width: 600px) {
-    .container .about {
-        width: 50%;
-        margin: 20px;
     }
 }
