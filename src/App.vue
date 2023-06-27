@@ -4,28 +4,32 @@
   </div>
 
   <Socials />
-  <div class="section-width introduction">
-    <Introduction />
-  </div>
 
-  <div class="section-width" id="about">
-    <About />
-  </div>
+  <div class="main-content">
 
-  <div class="section-width experience" id="experience">
-    <Experience />
-  </div>
+    <div class="section-width introduction">
+      <Introduction />
+    </div>
 
-  <div class="section-width projects" id="projects">
-    <Projects />
-  </div>
+    <div class="section-width" id="about">
+      <About />
+    </div>
 
-  <div class="section-width" id="contact">
-    <Contact />
-  </div>
+    <div class="section-width experience" id="experience">
+      <Experience />
+    </div>
 
-  <div class="section-width" style="padding: 0;">
-    <Footer />
+    <div class="section-width projects" id="projects">
+      <Projects />
+    </div>
+
+    <div class="section-width" id="contact">
+      <Contact />
+    </div>
+
+    <div class="section-width" style="padding: 0;">
+      <Footer />
+    </div>
   </div>
 </template>
 
