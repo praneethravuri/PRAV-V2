@@ -1,7 +1,7 @@
 <template>
     <div class="container">
         <div class="intro-text">
-            <p><span class="telugu-text" v-on:mouseover="mouseover" v-on:mouseleave="mouseleave">{{message}}</span>, I'm</p>
+            <p><span class="telugu-text" v-on:mouseover="mouseover" v-on:mouseleave="mouseleave">{{ message }}</span>, I'm</p>
         </div>
 
         <div class="name">
@@ -34,18 +34,18 @@
 export default {
     // eslint-disable-next-line vue/multi-word-component-names
     name: "Introduction",
-    el : ".telugu-text",
+    el: ".telugu-text",
     data() {
         return {
             skills: ["Python", "Javascript", "jQuery", "Express.js", "Node.js", "Vue.js", "Flask", "MongoDB", "Sass", "C"],
-            message : "నమస్కారం"
+            message: "నమస్కారం"
         }
     },
-    methods : {
-        mouseover : function(){
+    methods: {
+        mouseover: function () {
             this.message = "Hello"
         },
-        mouseleave: function(){
+        mouseleave: function () {
             this.message = "నమస్కారం"
         }
     }
@@ -53,5 +53,83 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-@import "@/styles/introduction.scss";
+.container {
+    margin-top: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    height: 100vh;
+    width: 75%;
+
+    & div {
+        margin: 30px 0px 10px 0px;
+        font-size: clamp(1rem, 1.5vw, 2rem);
+        text-align: center;
+    }
+
+    & .name-text {
+        font-size: clamp(6rem, 7vw, 8rem);
+        line-height: 100%;
+        font-weight: 600;
+        text-shadow: 10px 0px black;
+        font-family: $inter-font;
+    }
+
+    .desc {
+        text-align: center;
+    }
+
+    .telugu-text {
+        color: $bright-red;
+        cursor: pointer;
+    }
+
+    p {
+        font-family: $source-code-pro-font;
+    }
+
+    .location {
+        display: flex;
+        text-align: center;
+
+        &-icon {
+            width: 20px;
+            height: 20px;
+            margin-right: 5px;
+            fill: $bright-red;
+        }
+
+        &-text {
+            font-size: 18px;
+            color: $bright-red;
+        }
+    }
+
+    .skills {
+        margin: 10px 0px;
+
+        &-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        & p {
+            font-family: $source-code-pro-font;
+            font-weight: 600;
+            color: $bright-red;
+            font-size: 18px;
+            margin-right: 20px;
+        }
+    }
+
+    @media (max-width: 600px) {
+        margin-top: 0px;
+
+        & .name-text {
+            font-size: clamp(5rem, 6vw, 7rem);
+        }
+    }
+}
 </style>

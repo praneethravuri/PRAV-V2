@@ -17,18 +17,20 @@
         <div class="about">
             <p>Later, I began building blogs on WordPress and blogger.com. As a result, I was appointed as a web developer
                 for the IEEE student body of my university. I started learning HTML and CSS to enhance the user interface of
-                the old website, but I almost gave up because I found CSS to be confusing. Nevertheless, after completing two
+                the old website, but I almost gave up because I found CSS to be confusing. Nevertheless, after completing
+                two
                 internships in software and web development, I am now developing full-stack applications with a wide variety
                 of use cases.</p>
         </div>
 
         <div class="about">
-            <p>I am fueled by a burning passion for web development and I am more than ready to take on exciting full-time opportunities in the field! I am currently open to full-time opportunities, and my inbox is always open for connecting and networking. <span><a href="mailto: prav2500@gmail.com" class="about-contact-link">Feel free to say hi!</a></span></p>
+            <p>I am fueled by a burning passion for web development and I am more than ready to take on exciting full-time
+                opportunities in the field! I am currently open to full-time opportunities, and my inbox is always open for
+                connecting and networking. <span><a href="mailto: prav2500@gmail.com" class="about-contact-link">Feel free
+                        to say hi!</a></span></p>
         </div>
 
     </div>
-
-
 </template>
 
 <script>
@@ -38,5 +40,36 @@ export default {
 }
 </script>
 
-<style scoped lang="scss">@import "@/styles/about.scss";</style>
+<style scoped lang="scss">
+@import "@/styles/_variables.scss";
+
+.container {
+
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    & .about {
+        width: 100%;
+    }
+
+    & div p {
+        margin: 20px 0px;
+        font-family: $source-code-pro-font;
+        font-size: 19px;
+    }
+
+}
+
+.about-contact-link {
+    text-decoration: none;
+    color: $bright-red;
+    transition: $transition;
+
+    &:hover {
+        color: $dark-red;
+    }
+}
+</style>
   

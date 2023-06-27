@@ -27,6 +27,57 @@ export default {
 </script>
 
 <style scoped lang="scss">
-@import "@/styles/contact.scss";
+@import "@/styles/_variables.scss";
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+label {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    width: 80%;
+    color: $bright-red;
+    font-weight: 600;
+    font-family: $source-code-pro-font;
+}
+
+input[type="email"],
+textarea {
+    padding: 10px;
+    font-size: 16px;
+    background-color: $light-dark-blue;
+    border: none;
+    color: $text-color;
+    font-weight: 600;
+    transition: $transition;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+    font-family: $source-code-pro-font;
+    caret-color: $bright-red;
+
+    &:focus {
+        outline: none;
+        background-color: $dark-blue;
+        box-shadow: none;
+    }
+}
+
+button[type="submit"] {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: $dark-blue;
+    color: $bright-red;
+    font-weight: bold;
+    border: 1px solid $bright-red;
+    transition: $transition;
+
+    &:hover {
+        box-shadow: 5px 5px $bright-red;
+    }
+}
 </style>
   

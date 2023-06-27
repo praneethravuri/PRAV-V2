@@ -41,8 +41,10 @@
       </div>
       <p class="card-date">Aug. 2021 - Oct. 2021</p>
       <div class="card-content">
-        <p>Implemented front-end performance optimizations, including lazy loading and code minification, resulting in a significant 15% reduction in the website's overall file size</p>
-        <p>Collaborated with UX designers to ensure seamless compatibility between design elements and application programming interfaces, guaranteeing optimal product functionality.</p>
+        <p>Implemented front-end performance optimizations, including lazy loading and code minification, resulting in a
+          significant 15% reduction in the website's overall file size</p>
+        <p>Collaborated with UX designers to ensure seamless compatibility between design elements and application
+          programming interfaces, guaranteeing optimal product functionality.</p>
       </div>
     </div>
 
@@ -59,8 +61,10 @@
       </div>
       <p class="card-date">May. 2019 - May. 2022</p>
       <div class="card-content">
-        <p>Headed the IEEE GRIET SB web development team and took charge of the creation, operation, and the maintenance of the website</p>
-        <p>Selected as the student ambassador for IEEE xTreme 14.0, 2020 competition, responsible for overseeing and coordinating all college participants in the hackathon.</p>
+        <p>Headed the IEEE GRIET SB web development team and took charge of the creation, operation, and the maintenance
+          of the website</p>
+        <p>Selected as the student ambassador for IEEE xTreme 14.0, 2020 competition, responsible for overseeing and
+          coordinating all college participants in the hackathon.</p>
       </div>
     </div>
 
@@ -76,4 +80,106 @@ export default {
 
 </script>
 
-<style lang="scss" scoped>@import "@/styles/experience.scss";</style>
+<style lang="scss" scoped>
+@import "@/styles/_variables.scss";
+
+.exp-cards {
+  width: 75%;
+  margin: auto;
+  margin-top: 20px;
+}
+
+.card {
+  background-color: $light-dark-blue;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  height: 350px;
+  margin: 20px;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+
+  &-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    padding: 10px 0px;
+    border-bottom: 2px solid $dark-red;
+  }
+
+  &-heading {
+    font-family: $source-code-pro-font;
+    font-size: 24px;
+    font-weight: 600;
+    color: $bright-red;
+  }
+
+  &-date {
+    font-size: 18px;
+    color: $text-color;
+    margin-bottom: 10px;
+  }
+
+  &-location {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+
+  &-content p {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: $text-color;
+    font-family: $source-code-pro-font;
+  }
+
+}
+
+.location {
+
+  &-icon {
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+    fill: $bright-red;
+  }
+
+  &-text {
+    font-size: 18px;
+    color: $bright-red;
+  }
+}
+
+@media (max-width: 600px) {
+  .exp-cards {
+    width: 100%;
+  }
+
+  .card {
+    padding: 20px;
+    width: 100%;
+    margin: 15px auto;
+
+    &-heading {
+      font-size: 20px;
+    }
+
+    &-date,
+    &-content p {
+      font-size: 14px;
+    }
+  }
+
+  .location {
+
+    &-icon {
+      width: 16px;
+      height: 16px;
+      margin-right: 3px;
+    }
+
+    &-text {
+      font-size: 15px;
+    }
+  }
+
+}</style>
