@@ -23,60 +23,55 @@
         font-family: $inter-font;
     }
 
-    .desc{
+    .desc {
         text-align: center;
     }
 
-    .telugu-text{
+    .telugu-text {
         color: $bright-red;
         cursor: pointer;
     }
-}
 
-
-p {
-    font-family: $source-code-pro-font;
-}
-
-.location {
-
-    display: flex;
-    text-align: center;
-
-    &-icon {
-        width: 20px;
-        height: 20px;
-        margin-right: 5px;
-        fill: $bright-red;
-    }
-
-    &-text {
-        font-size: 18px;
-        color: $bright-red;
-    }
-}
-
-.skills {
-    margin: 10px 0px;
-
-    &-container {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-    }
-
-    & p {
+    p {
         font-family: $source-code-pro-font;
-        font-weight: 600;
-        color: $bright-red;
-        font-size: 18px;
-        margin-right: 20px;
     }
 
-}
+    .location {
+        display: flex;
+        text-align: center;
 
-@media (max-width: 600px) {
-    .container {
+        &-icon {
+            width: 20px;
+            height: 20px;
+            margin-right: 5px;
+            fill: $bright-red;
+        }
+
+        &-text {
+            font-size: 18px;
+            color: $bright-red;
+        }
+    }
+
+    .skills {
+        margin: 10px 0px;
+
+        &-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        & p {
+            font-family: $source-code-pro-font;
+            font-weight: 600;
+            color: $bright-red;
+            font-size: 18px;
+            margin-right: 20px;
+        }
+    }
+
+    @media (max-width: 600px) {
         margin-top: 0px;
 
         & .name-text {
