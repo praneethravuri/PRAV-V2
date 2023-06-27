@@ -11,10 +11,10 @@
 }
 
 body {
-  background-color: $dark-blue;
+  background-color: $navy;
   text-decoration: none;
-  font-family: $inter-font;
-  color: $text-color;
+  font-family: $source-code-pro-font;
+  color: $silver-sand;
   font-weight: 600;
   font-size: 18px;
 }
@@ -22,7 +22,7 @@ body {
 html,
 body {
   scrollbar-width: thin;
-  scrollbar-color: $bright-red $dark-blue ;
+  scrollbar-color: $bright-red $navy ;
 }
 
 .section {
@@ -53,6 +53,7 @@ body {
   &-heading {
     margin-top: 7%;
     text-align: center;
+    font-family: $inter-font;
   }
 
 }

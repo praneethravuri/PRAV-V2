@@ -56,7 +56,6 @@ export default {
 
     & div p {
         margin: 20px 0px;
-        font-family: $source-code-pro-font;
         font-size: 19px;
     }
 

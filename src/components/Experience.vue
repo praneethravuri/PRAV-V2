@@ -90,7 +90,7 @@ export default {
 }
 
 .card {
-  background-color: $light-dark-blue;
+  background-color: $light-navy;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   padding: 20px;
   height: 350px;
@@ -107,7 +107,6 @@ export default {
   }
 
   &-heading {
-    font-family: $source-code-pro-font;
     font-size: 24px;
     font-weight: 600;
     color: $bright-red;
@@ -115,7 +114,7 @@ export default {
 
   &-date {
     font-size: 18px;
-    color: $text-color;
+    color: $silver-sand;
     margin-bottom: 10px;
   }
 
@@ -128,8 +127,7 @@ export default {
   &-content p {
     font-size: 18px;
     margin-bottom: 10px;
-    color: $text-color;
-    font-family: $source-code-pro-font;
+    color: $silver-sand;
   }
 
 }

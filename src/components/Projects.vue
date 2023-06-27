@@ -127,9 +127,8 @@ export default {
 
 .card {
     padding: 20px;
-    background-color: $light-dark-blue;
+    background-color: $light-navy;
     height: 350px;
-    font-family: $source-code-pro-font;
     box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
     transition: $transition;
     cursor: pointer;
@@ -155,7 +154,7 @@ export default {
     &-description {
         margin: 10px 0;
         height: 90%;
-        color: $text-color;
+        color: $silver-sand;
     }
 
     &-tags {
@@ -181,7 +180,6 @@ export default {
 
 .disclaimer {
     margin-top: 20px;
-    font-family: $source-code-pro-font;
     font-size: 15.5px;
 
     & span,

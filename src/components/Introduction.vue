@@ -1,7 +1,8 @@
 <template>
     <div class="container">
         <div class="intro-text">
-            <p><span class="telugu-text" v-on:mouseover="mouseover" v-on:mouseleave="mouseleave">{{ message }}</span>, I'm</p>
+            <p><span class="telugu-text" v-on:mouseover="mouseover" v-on:mouseleave="mouseleave">{{ message }}</span>, I'm
+            </p>
         </div>
 
         <div class="name">
@@ -85,12 +86,10 @@ export default {
         cursor: pointer;
     }
 
-    p {
-        font-family: $source-code-pro-font;
-    }
-
     .location {
         display: flex;
+        align-items: center;
+        justify-content: center;
         text-align: center;
 
         &-icon {
@@ -116,7 +115,6 @@ export default {
         }
 
         & p {
-            font-family: $source-code-pro-font;
             font-weight: 600;
             color: $bright-red;
             font-size: 18px;

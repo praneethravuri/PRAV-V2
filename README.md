@@ -51,8 +51,8 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 
 | Color          | Hex                                                                |
 | -------------- | ------------------------------------------------------------------ |
-| Dark Blue           | ![#16151d](https://via.placeholder.com/10/16151d?text=+) `#16151d` |
-| Lighter Dark Blue     | ![#1d1b25](https://via.placeholder.com/10/1d1b25?text=+) `#1d1b25` |
+| Navy           | ![#16151d](https://via.placeholder.com/10/16151d?text=+) `#16151d` |
+| Light Navy     | ![#1d1b25](https://via.placeholder.com/10/1d1b25?text=+) `#1d1b25` |
 | Bright Red  | ![#FF4057](https://via.placeholder.com/10/FF4057?text=+) `#FF4057` |
 | Slate          | ![#e6f1ff](https://via.placeholder.com/10/e6f1ff?text=+) `#e6f1ff` |
 | Dark Red    | ![#9d2836](https://via.placeholder.com/10/9d2836?text=+) `#9d2836` |
