@@ -52,11 +52,20 @@ export default {
 
     & .about {
         width: 100%;
+
     }
 
     & div p {
         margin: 20px 0px;
-        font-size: 19px;
+        font-size: 1.125rem;
+
+        @media only screen and (max-width: 600px) {
+            font-size: 0.95rem;
+        }
+
+        @media only screen and (max-width: 320px) {
+            font-size: 0.85rem;
+        }
     }
 
 }

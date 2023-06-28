@@ -180,4 +180,28 @@ export default {
     }
   }
 
-}</style>
+  @media only screen and (min-width: 321px) and (max-width: 399px) {
+    .card {
+      height: 450px;
+    }
+  }
+
+  @media only screen and (min-width: 400px) and (max-width: 600px) {
+    .card{
+      height: 450px;
+
+
+      &-content p{
+        font-size: 0.95rem;
+      }
+    }
+  }
+
+  @media only screen and (max-width: 320px){
+    .card{
+      height: 500px;
+    }
+  }
+
+}
+</style>

@@ -72,3 +72,25 @@ body {
     margin: 0;
   }
 }
+
+@media only screen and (max-width: 320px) {
+  .main-content{
+      margin-top: 90%;
+  }
+
+  #about{
+    margin-top: 30%;
+  }
+}
+
+@media only screen and (min-width: 321px) and (max-width: 399px) {
+  .main-content{
+      margin-top: 30%;
+  }
+}
+
+@media only screen and (min-width: 400px) and (max-width: 600px) {
+  .main-content{
+      margin-top: 15%;
+  }
+}

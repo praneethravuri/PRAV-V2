@@ -69,16 +69,17 @@ export default {
         text-align: center;
     }
 
-    & .name-text {
-        font-size: clamp(6rem, 7vw, 8rem);
+    .name-text {
+        font-size: 6rem;
         line-height: 100%;
         font-weight: 600;
         text-shadow: 10px 0px black;
         font-family: $inter-font;
     }
 
+
     .desc {
-        text-align: center;
+        text-align: left;
     }
 
     .telugu-text {
@@ -123,10 +124,10 @@ export default {
     }
 
     @media (max-width: 600px) {
-        margin-top: 0px;
+        margin-top: -50px;
 
         & .name-text {
-            font-size: clamp(5rem, 6vw, 7rem);
+            font-size: 3rem;
         }
     }
 }
