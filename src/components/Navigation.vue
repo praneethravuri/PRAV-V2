@@ -55,8 +55,6 @@ export default {
 
 nav {
     padding: 20px;
-    position: fixed;
-    background-color: $navy;
     width: 100%;
     z-index: 999;
     top: 0;
