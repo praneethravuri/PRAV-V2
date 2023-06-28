@@ -207,10 +207,33 @@ export default {
     }
 }
 
-@media (max-width: 600px) {
+@media only screen and (min-width: 400px) and (max-width: 600px) {
     .card-description {
-        font-size: 14px
+        font-size: 1rem;
+    }
+
+    .card {
+        height: 400px;
     }
 }
+
+@media only screen and (max-width: 320px) {
+    .card {
+        height: 500px;
+    }
+}
+
+@media only screen and (min-width: 321px) and (max-width: 399px) {
+    .card {
+        height: 450px;
+    }
+}
+
+@media only screen and (min-width: 799px) {
+  .card{
+    height: 425px;
+  }
+}
+
 </style>
   
