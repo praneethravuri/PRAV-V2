@@ -89,7 +89,7 @@ body {
   }
 }
 
-@media only screen and (min-width: 400px) and (max-width: 600px) {
+@media only screen and (min-width: 400px) and (max-width: 599px) {
   .main-content{
       margin-top: 15%;
   }
@@ -101,8 +101,21 @@ body {
   }
 }
 
-@media only screen and (min-width: 799px) {
+
+@media only screen and (min-height: 801px) and (max-height: 830px) {
   .main-content{
-      margin-top: 10%;
+      margin-top: 25%;
+  }
+}
+
+@media only screen and (width: 800px) {
+  .main-content{
+    margin-top: -30%;
+  }
+}
+
+@media only screen and (width: 360px) {
+  .main-content{
+    margin-top: 50%;
   }
 }
