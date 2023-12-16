@@ -102,7 +102,7 @@ nav {
         transition: $transition;
 
         &:hover {
-            color: $slate;
+            text-shadow: 3px 0px 0px $slate;
         }
     }
 
